@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F90A637215CA61B00530553 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90A636215CA61B00530553 /* AppDelegate.m */; };
+		8F90A63A215CA61B00530553 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90A639215CA61B00530553 /* ViewController.m */; };
+		8F90A63D215CA61B00530553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F90A63B215CA61B00530553 /* Main.storyboard */; };
+		8F90A63F215CA62100530553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F90A63E215CA62100530553 /* Assets.xcassets */; };
+		8F90A642215CA62100530553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F90A640215CA62100530553 /* LaunchScreen.storyboard */; };
+		8F90A645215CA62100530553 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90A644215CA62100530553 /* main.m */; };
+		8F90A64F215CA62100530553 /* WaveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90A64E215CA62100530553 /* WaveDemoTests.m */; };
+		8F90A65A215CA62100530553 /* WaveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90A659215CA62100530553 /* WaveDemoUITests.m */; };
+		8F90B173215CA6DA00530553 /* DrawingColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90B16B215CA6CC00530553 /* DrawingColor.m */; };
+		8F90B174215CA6DA00530553 /* DrawingColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90B16B215CA6CC00530553 /* DrawingColor.m */; };
+		8F90B175215CA6DA00530553 /* DrawingColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90B16B215CA6CC00530553 /* DrawingColor.m */; };
+		8F90B176215CA6DA00530553 /* DrawingStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90B16C215CA6D800530553 /* DrawingStyle.m */; };
+		8F90B177215CA6DA00530553 /* DrawingStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90B16C215CA6D800530553 /* DrawingStyle.m */; };
+		8F90B178215CA6DA00530553 /* DrawingStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90B16C215CA6D800530553 /* DrawingStyle.m */; };
+		8F90B179215CA6DA00530553 /* DrawRectObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90B16F215CA6D900530553 /* DrawRectObject.m */; };
+		8F90B17A215CA6DA00530553 /* DrawRectObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90B16F215CA6D900530553 /* DrawRectObject.m */; };
+		8F90B17B215CA6DA00530553 /* DrawRectObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90B16F215CA6D900530553 /* DrawRectObject.m */; };
+		8F90B17C215CA6DA00530553 /* CustomDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90B171215CA6D900530553 /* CustomDrawingView.m */; };
+		8F90B17D215CA6DA00530553 /* CustomDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90B171215CA6D900530553 /* CustomDrawingView.m */; };
+		8F90B17E215CA6DA00530553 /* CustomDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90B171215CA6D900530553 /* CustomDrawingView.m */; };
+		8F90B181215CA75100530553 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90B17F215CA75000530553 /* WaveView.m */; };
+		8F90B182215CA75100530553 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90B17F215CA75000530553 /* WaveView.m */; };
+		8F90B183215CA75100530553 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90B17F215CA75000530553 /* WaveView.m */; };
+		8F90B187215CA7CF00530553 /* WaveAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90B186215CA7CF00530553 /* WaveAnimationView.m */; };
+		8F90B188215CA7CF00530553 /* WaveAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90B186215CA7CF00530553 /* WaveAnimationView.m */; };
+		8F90B189215CA7CF00530553 /* WaveAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90B186215CA7CF00530553 /* WaveAnimationView.m */; };
+		8F90B18C215CAB3400530553 /* UIView+LG_Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90B18A215CAB3400530553 /* UIView+LG_Frame.m */; };
+		8F90B18D215CAB3400530553 /* UIView+LG_Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90B18A215CAB3400530553 /* UIView+LG_Frame.m */; };
+		8F90B18E215CAB3400530553 /* UIView+LG_Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90B18A215CAB3400530553 /* UIView+LG_Frame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F90A64B215CA62100530553 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F90A62A215CA61B00530553 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F90A631215CA61B00530553;
+			remoteInfo = WaveDemo;
+		};
+		8F90A656215CA62100530553 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F90A62A215CA61B00530553 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F90A631215CA61B00530553;
+			remoteInfo = WaveDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F90A632215CA61B00530553 /* WaveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F90A635215CA61B00530553 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F90A636215CA61B00530553 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F90A638215CA61B00530553 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F90A639215CA61B00530553 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F90A63C215CA61B00530553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F90A63E215CA62100530553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F90A641215CA62100530553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F90A643215CA62100530553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F90A644215CA62100530553 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F90A64A215CA62100530553 /* WaveDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F90A64E215CA62100530553 /* WaveDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveDemoTests.m; sourceTree = "<group>"; };
+		8F90A650215CA62100530553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F90A655215CA62100530553 /* WaveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F90A659215CA62100530553 /* WaveDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveDemoUITests.m; sourceTree = "<group>"; };
+		8F90A65B215CA62100530553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F90B16B215CA6CC00530553 /* DrawingColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingColor.m; sourceTree = "<group>"; };
+		8F90B16C215CA6D800530553 /* DrawingStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingStyle.m; sourceTree = "<group>"; };
+		8F90B16D215CA6D900530553 /* DrawRectObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawRectObject.h; sourceTree = "<group>"; };
+		8F90B16E215CA6D900530553 /* CustomDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDrawingView.h; sourceTree = "<group>"; };
+		8F90B16F215CA6D900530553 /* DrawRectObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawRectObject.m; sourceTree = "<group>"; };
+		8F90B170215CA6D900530553 /* DrawingStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingStyle.h; sourceTree = "<group>"; };
+		8F90B171215CA6D900530553 /* CustomDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDrawingView.m; sourceTree = "<group>"; };
+		8F90B172215CA6DA00530553 /* DrawingColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingColor.h; sourceTree = "<group>"; };
+		8F90B17F215CA75000530553 /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
+		8F90B180215CA75100530553 /* WaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
+		8F90B185215CA7CF00530553 /* WaveAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaveAnimationView.h; sourceTree = "<group>"; };
+		8F90B186215CA7CF00530553 /* WaveAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveAnimationView.m; sourceTree = "<group>"; };
+		8F90B18A215CAB3400530553 /* UIView+LG_Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LG_Frame.m"; sourceTree = "<group>"; };
+		8F90B18B215CAB3400530553 /* UIView+LG_Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LG_Frame.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F90A62F215CA61B00530553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F90A647215CA62100530553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F90A652215CA62100530553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F90A629215CA61B00530553 = {
+			isa = PBXGroup;
+			children = (
+				8F90A634215CA61B00530553 /* WaveDemo */,
+				8F90A64D215CA62100530553 /* WaveDemoTests */,
+				8F90A658215CA62100530553 /* WaveDemoUITests */,
+				8F90A633215CA61B00530553 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F90A633215CA61B00530553 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F90A632215CA61B00530553 /* WaveDemo.app */,
+				8F90A64A215CA62100530553 /* WaveDemoTests.xctest */,
+				8F90A655215CA62100530553 /* WaveDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F90A634215CA61B00530553 /* WaveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8F90A635215CA61B00530553 /* AppDelegate.h */,
+				8F90A636215CA61B00530553 /* AppDelegate.m */,
+				8F90A638215CA61B00530553 /* ViewController.h */,
+				8F90A639215CA61B00530553 /* ViewController.m */,
+				8F90B184215CA76C00530553 /* Wave */,
+				8F90A63B215CA61B00530553 /* Main.storyboard */,
+				8F90A63E215CA62100530553 /* Assets.xcassets */,
+				8F90A640215CA62100530553 /* LaunchScreen.storyboard */,
+				8F90A643215CA62100530553 /* Info.plist */,
+				8F90A644215CA62100530553 /* main.m */,
+			);
+			path = WaveDemo;
+			sourceTree = "<group>";
+		};
+		8F90A64D215CA62100530553 /* WaveDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F90A64E215CA62100530553 /* WaveDemoTests.m */,
+				8F90A650215CA62100530553 /* Info.plist */,
+			);
+			path = WaveDemoTests;
+			sourceTree = "<group>";
+		};
+		8F90A658215CA62100530553 /* WaveDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F90A659215CA62100530553 /* WaveDemoUITests.m */,
+				8F90A65B215CA62100530553 /* Info.plist */,
+			);
+			path = WaveDemoUITests;
+			sourceTree = "<group>";
+		};
+		8F90B184215CA76C00530553 /* Wave */ = {
+			isa = PBXGroup;
+			children = (
+				8F90B18B215CAB3400530553 /* UIView+LG_Frame.h */,
+				8F90B18A215CAB3400530553 /* UIView+LG_Frame.m */,
+				8F90B16E215CA6D900530553 /* CustomDrawingView.h */,
+				8F90B171215CA6D900530553 /* CustomDrawingView.m */,
+				8F90B172215CA6DA00530553 /* DrawingColor.h */,
+				8F90B16B215CA6CC00530553 /* DrawingColor.m */,
+				8F90B170215CA6D900530553 /* DrawingStyle.h */,
+				8F90B16C215CA6D800530553 /* DrawingStyle.m */,
+				8F90B16D215CA6D900530553 /* DrawRectObject.h */,
+				8F90B16F215CA6D900530553 /* DrawRectObject.m */,
+				8F90B180215CA75100530553 /* WaveView.h */,
+				8F90B17F215CA75000530553 /* WaveView.m */,
+				8F90B185215CA7CF00530553 /* WaveAnimationView.h */,
+				8F90B186215CA7CF00530553 /* WaveAnimationView.m */,
+			);
+			path = Wave;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F90A631215CA61B00530553 /* WaveDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F90A65E215CA62100530553 /* Build configuration list for PBXNativeTarget "WaveDemo" */;
+			buildPhases = (
+				8F90A62E215CA61B00530553 /* Sources */,
+				8F90A62F215CA61B00530553 /* Frameworks */,
+				8F90A630215CA61B00530553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaveDemo;
+			productName = WaveDemo;
+			productReference = 8F90A632215CA61B00530553 /* WaveDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F90A649215CA62100530553 /* WaveDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F90A661215CA62100530553 /* Build configuration list for PBXNativeTarget "WaveDemoTests" */;
+			buildPhases = (
+				8F90A646215CA62100530553 /* Sources */,
+				8F90A647215CA62100530553 /* Frameworks */,
+				8F90A648215CA62100530553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F90A64C215CA62100530553 /* PBXTargetDependency */,
+			);
+			name = WaveDemoTests;
+			productName = WaveDemoTests;
+			productReference = 8F90A64A215CA62100530553 /* WaveDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F90A654215CA62100530553 /* WaveDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F90A664215CA62100530553 /* Build configuration list for PBXNativeTarget "WaveDemoUITests" */;
+			buildPhases = (
+				8F90A651215CA62100530553 /* Sources */,
+				8F90A652215CA62100530553 /* Frameworks */,
+				8F90A653215CA62100530553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F90A657215CA62100530553 /* PBXTargetDependency */,
+			);
+			name = WaveDemoUITests;
+			productName = WaveDemoUITests;
+			productReference = 8F90A655215CA62100530553 /* WaveDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F90A62A215CA61B00530553 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = ios2;
+				TargetAttributes = {
+					8F90A631215CA61B00530553 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					8F90A649215CA62100530553 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 8F90A631215CA61B00530553;
+					};
+					8F90A654215CA62100530553 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 8F90A631215CA61B00530553;
+					};
+				};
+			};
+			buildConfigurationList = 8F90A62D215CA61B00530553 /* Build configuration list for PBXProject "WaveDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F90A629215CA61B00530553;
+			productRefGroup = 8F90A633215CA61B00530553 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F90A631215CA61B00530553 /* WaveDemo */,
+				8F90A649215CA62100530553 /* WaveDemoTests */,
+				8F90A654215CA62100530553 /* WaveDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F90A630215CA61B00530553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F90A642215CA62100530553 /* LaunchScreen.storyboard in Resources */,
+				8F90A63F215CA62100530553 /* Assets.xcassets in Resources */,
+				8F90A63D215CA61B00530553 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F90A648215CA62100530553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F90A653215CA62100530553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F90A62E215CA61B00530553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F90B17C215CA6DA00530553 /* CustomDrawingView.m in Sources */,
+				8F90B173215CA6DA00530553 /* DrawingColor.m in Sources */,
+				8F90A63A215CA61B00530553 /* ViewController.m in Sources */,
+				8F90B187215CA7CF00530553 /* WaveAnimationView.m in Sources */,
+				8F90B181215CA75100530553 /* WaveView.m in Sources */,
+				8F90B179215CA6DA00530553 /* DrawRectObject.m in Sources */,
+				8F90A645215CA62100530553 /* main.m in Sources */,
+				8F90B18C215CAB3400530553 /* UIView+LG_Frame.m in Sources */,
+				8F90A637215CA61B00530553 /* AppDelegate.m in Sources */,
+				8F90B176215CA6DA00530553 /* DrawingStyle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F90A646215CA62100530553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F90B174215CA6DA00530553 /* DrawingColor.m in Sources */,
+				8F90B188215CA7CF00530553 /* WaveAnimationView.m in Sources */,
+				8F90A64F215CA62100530553 /* WaveDemoTests.m in Sources */,
+				8F90B17D215CA6DA00530553 /* CustomDrawingView.m in Sources */,
+				8F90B17A215CA6DA00530553 /* DrawRectObject.m in Sources */,
+				8F90B18D215CAB3400530553 /* UIView+LG_Frame.m in Sources */,
+				8F90B177215CA6DA00530553 /* DrawingStyle.m in Sources */,
+				8F90B182215CA75100530553 /* WaveView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F90A651215CA62100530553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F90B175215CA6DA00530553 /* DrawingColor.m in Sources */,
+				8F90B189215CA7CF00530553 /* WaveAnimationView.m in Sources */,
+				8F90A65A215CA62100530553 /* WaveDemoUITests.m in Sources */,
+				8F90B17E215CA6DA00530553 /* CustomDrawingView.m in Sources */,
+				8F90B17B215CA6DA00530553 /* DrawRectObject.m in Sources */,
+				8F90B18E215CAB3400530553 /* UIView+LG_Frame.m in Sources */,
+				8F90B178215CA6DA00530553 /* DrawingStyle.m in Sources */,
+				8F90B183215CA75100530553 /* WaveView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F90A64C215CA62100530553 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F90A631215CA61B00530553 /* WaveDemo */;
+			targetProxy = 8F90A64B215CA62100530553 /* PBXContainerItemProxy */;
+		};
+		8F90A657215CA62100530553 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F90A631215CA61B00530553 /* WaveDemo */;
+			targetProxy = 8F90A656215CA62100530553 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F90A63B215CA61B00530553 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F90A63C215CA61B00530553 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F90A640215CA62100530553 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F90A641215CA62100530553 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F90A65C215CA62100530553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F90A65D215CA62100530553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F90A65F215CA62100530553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SR2P5NBA9;
+				INFOPLIST_FILE = WaveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LenSkey.com.WaveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F90A660215CA62100530553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SR2P5NBA9;
+				INFOPLIST_FILE = WaveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LenSkey.com.WaveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F90A662215CA62100530553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SR2P5NBA9;
+				INFOPLIST_FILE = WaveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LenSkey.com.WaveDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveDemo.app/WaveDemo";
+			};
+			name = Debug;
+		};
+		8F90A663215CA62100530553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SR2P5NBA9;
+				INFOPLIST_FILE = WaveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LenSkey.com.WaveDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveDemo.app/WaveDemo";
+			};
+			name = Release;
+		};
+		8F90A665215CA62100530553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SR2P5NBA9;
+				INFOPLIST_FILE = WaveDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LenSkey.com.WaveDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaveDemo;
+			};
+			name = Debug;
+		};
+		8F90A666215CA62100530553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SR2P5NBA9;
+				INFOPLIST_FILE = WaveDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LenSkey.com.WaveDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaveDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F90A62D215CA61B00530553 /* Build configuration list for PBXProject "WaveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F90A65C215CA62100530553 /* Debug */,
+				8F90A65D215CA62100530553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F90A65E215CA62100530553 /* Build configuration list for PBXNativeTarget "WaveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F90A65F215CA62100530553 /* Debug */,
+				8F90A660215CA62100530553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F90A661215CA62100530553 /* Build configuration list for PBXNativeTarget "WaveDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F90A662215CA62100530553 /* Debug */,
+				8F90A663215CA62100530553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F90A664215CA62100530553 /* Build configuration list for PBXNativeTarget "WaveDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F90A665215CA62100530553 /* Debug */,
+				8F90A666215CA62100530553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F90A62A215CA61B00530553 /* Project object */;
+}
